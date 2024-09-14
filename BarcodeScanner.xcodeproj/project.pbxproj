@@ -57,8 +57,8 @@
 			children = (
 				E987143B2C95934500ADEA39 /* BarcodeScannerApp.swift */,
 				E987143D2C95934500ADEA39 /* BarcodeScannerView.swift */,
-				E98714492C95A7E000ADEA39 /* ScannerVC.swift */,
 				E987144B2C95B4B700ADEA39 /* ScannerView.swift */,
+				E98714492C95A7E000ADEA39 /* ScannerVC.swift */,
 				E987143F2C95934700ADEA39 /* Assets.xcassets */,
 				E98714412C95934700ADEA39 /* Preview Content */,
 			);
