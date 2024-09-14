@@ -12,6 +12,7 @@
 		E98714402C95934700ADEA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E987143F2C95934700ADEA39 /* Assets.xcassets */; };
 		E98714432C95934700ADEA39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98714422C95934700ADEA39 /* Preview Assets.xcassets */; };
 		E987144A2C95A7E000ADEA39 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98714492C95A7E000ADEA39 /* ScannerVC.swift */; };
+		E987144C2C95B4B700ADEA39 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E987144B2C95B4B700ADEA39 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E987143F2C95934700ADEA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E98714422C95934700ADEA39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E98714492C95A7E000ADEA39 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		E987144B2C95B4B700ADEA39 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				E987143B2C95934500ADEA39 /* BarcodeScannerApp.swift */,
 				E987143D2C95934500ADEA39 /* BarcodeScannerView.swift */,
 				E98714492C95A7E000ADEA39 /* ScannerVC.swift */,
+				E987144B2C95B4B700ADEA39 /* ScannerView.swift */,
 				E987143F2C95934700ADEA39 /* Assets.xcassets */,
 				E98714412C95934700ADEA39 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E987144A2C95A7E000ADEA39 /* ScannerVC.swift in Sources */,
+				E987144C2C95B4B700ADEA39 /* ScannerView.swift in Sources */,
 				E987143E2C95934500ADEA39 /* BarcodeScannerView.swift in Sources */,
 				E987143C2C95934500ADEA39 /* BarcodeScannerApp.swift in Sources */,
 			);
