@@ -20,7 +20,6 @@ struct BarcodeScannerView: View {
                 
                     Label("Scanned Barcode:", systemImage: "barcode.viewfinder")
                         .font(.title)
-                        .fontWeight(.semibold)
                         .foregroundColor(Color(.darkGray))
                     
                     Text("Not Yet Scanned")

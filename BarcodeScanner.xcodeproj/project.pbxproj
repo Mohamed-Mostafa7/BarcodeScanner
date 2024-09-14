@@ -11,6 +11,7 @@
 		E987143E2C95934500ADEA39 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E987143D2C95934500ADEA39 /* BarcodeScannerView.swift */; };
 		E98714402C95934700ADEA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E987143F2C95934700ADEA39 /* Assets.xcassets */; };
 		E98714432C95934700ADEA39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98714422C95934700ADEA39 /* Preview Assets.xcassets */; };
+		E987144A2C95A7E000ADEA39 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98714492C95A7E000ADEA39 /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E987143D2C95934500ADEA39 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		E987143F2C95934700ADEA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E98714422C95934700ADEA39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E98714492C95A7E000ADEA39 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E987143B2C95934500ADEA39 /* BarcodeScannerApp.swift */,
 				E987143D2C95934500ADEA39 /* BarcodeScannerView.swift */,
+				E98714492C95A7E000ADEA39 /* ScannerVC.swift */,
 				E987143F2C95934700ADEA39 /* Assets.xcassets */,
 				E98714412C95934700ADEA39 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E987144A2C95A7E000ADEA39 /* ScannerVC.swift in Sources */,
 				E987143E2C95934500ADEA39 /* BarcodeScannerView.swift in Sources */,
 				E987143C2C95934500ADEA39 /* BarcodeScannerApp.swift in Sources */,
 			);
@@ -197,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
